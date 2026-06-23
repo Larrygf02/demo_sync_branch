@@ -1,0 +1,8 @@
+name: CI
+on: [pull_request]
+jobs:
+  prueba:
+    name: Demo test
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Simulando test"
